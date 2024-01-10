@@ -1,0 +1,132 @@
+format_version: 0.2.2
+type: collection
+name: DL4MicEverywhere
+tags: [dl4miceverywhere, bioimage.io, docker, container, containerisation, zerocostdl4mic]
+description: "Resources of DL4MicEverywhere for BioImgage.IO."
+
+authors:
+  - name: "Iván Hidalgo"
+    github_user: IvanHCenalmor
+    affiliation: "Instituto Gulbenkian de Ciência"
+    orcid: "0009-0000-8923-568X"
+  - name: "Joanna W Pylvänäinen"
+    github_user: jpylvanainen
+    affiliation: "University of Edinburgh"
+    orcid: "0000-0002-3540-5150"
+  - name: "Mariana G Ferreira"
+    github_user: mariana-gferreira
+    affiliation: "Instituto Gulbenkian de Ciência"
+    orcid: "0009-0002-2886-4612"
+  - name: "Craig T Russell"
+    github_user: ctr26
+    affiliation: "EMBL, UK"
+    orcid: "0000-0002-2447-5911"
+  - name: "Ignacio Arganda-Carreras"
+    github_user: iarganda
+    affiliation: "Ikerbasque"
+    orcid: "0000-0003-0229-5722"
+  - name: "Guillaume Jacquemet"
+    github_user: guijacquemet
+    affiliation: "University of Turku"
+    orcid: "0000-0002-9286-920X"
+  - name: "Ricardo Henriques"
+    github_user: paxcalpt
+    affiliation: "Instituto Gulbenkian de Ciência"
+    orcid: "0000-0002-2043-5234"
+  - name: "Estibaliz Gómez de Mariscal"
+    github_user: esgomezm
+    affiliation: "Instituto Gulbenkian de Ciência"
+    orcid: "0000-0003-2082-3277"
+
+maintainers:
+  - name: "Iván Hidalgo"
+    github_user: IvanHCenalmor
+    affiliation: "Instituto Gulbenkian de Ciência"
+    orcid: "0009-0000-8923-568X"
+  - name: "Mariana G Ferreira"
+    github_user: mariana-gferreira
+    affiliation: "Instituto Gulbenkian de Ciência"
+    orcid: "0009-0002-2886-4612"
+  - name: "Estibaliz Gómez de Mariscal"
+    github_user: esgomezm
+    affiliation: "Instituto Gulbenkian de Ciência"
+    orcid: "0000-0003-2082-3277"
+
+config: 
+  id: dl4miceverywhere
+  name: DL4MicEverywhere
+  tags:
+    - dl4miceverywhere
+  logo: https://raw.githubusercontent.com/HenriquesLab/DL4MicEverywhere-bioimage-io/main/logo/dl4miceverywhere-logo-small.png
+  icon: https://raw.githubusercontent.com/HenriquesLab/DL4MicEverywhere-bioimage-io/main/logo/dl4miceverywhere-logo-small.png
+  splash_title: DL4MicEverywhere
+  splash_subtitle: "DL4MicEverywhere is an open-source and user-friendly platform of deep learning techniques for bioimage analysis that ensures the portability and reproducibility of the methods."
+  splash_feature_list:
+  explore_button_text: "Start Exploring"
+  background_image: "static/img/zoo-background.svg"
+  resource_types:
+    - application
+    - model
+  default_type: model
+  url_root: https://github.com/HenriquesLab/DL4MicEverywhere-bioimage-io
+
+collection:
+  - id: DL4MicEverywhere
+    name: DL4MicEverywhere
+    description: "DL4MicEverywhere is a platform that offers researchers an easy-to-use gateway to cutting-edge deep learning techniques for bioimage analysis. It features interactive Jupyter notebooks with user-friendly graphical interfaces that require no coding skills. The platform utilizes Docker containers to ensure portability and reproducibility, guaranteeing smooth operation across various computing environments."
+    format_version: 0.2.2
+    source: https://github.com/HenriquesLab/DL4MicEverywhere
+    type: application
+    authors:
+      - name: "Iván Hidalgo"
+        github_user: IvanHCenalmor
+        affiliation: "Instituto Gulbenkian de Ciência"
+        orcid: "0009-0000-8923-568X"
+      - name: "Joanna W Pylvänäinen"
+        github_user: jpylvanainen
+        affiliation: "University of Edinburgh"
+        orcid: "0000-0002-3540-5150"
+      - name: "Mariana G Ferreira"
+        github_user: mariana-gferreira
+        affiliation: "Instituto Gulbenkian de Ciência"
+        orcid: "0009-0002-2886-4612"
+      - name: "Craig T Russell"
+        github_user: ctr26
+        affiliation: "EMBL, UK"
+        orcid: "0000-0002-2447-5911"
+      - name: "Ignacio Arganda-Carreras"
+        github_user: iarganda
+        affiliation: "Ikerbasque"
+        orcid: "0000-0003-0229-5722"
+      - name: "Guillaume Jacquemet"
+        github_user: guijacquemet
+        affiliation: "University of Turku"
+        orcid: "0000-0002-9286-920X"
+      - name: "Ricardo Henriques"
+        github_user: paxcalpt
+        affiliation: "Instituto Gulbenkian de Ciência"
+        orcid: "0000-0002-2043-5234"
+      - name: "Estibaliz Gómez de Mariscal"
+        github_user: esgomezm
+        affiliation: "Instituto Gulbenkian de Ciência"
+        orcid: "0000-0003-2082-3277"
+
+    maintainers:
+      - name: "Iván Hidalgo"
+        github_user: IvanHCenalmor
+        affiliation: "Instituto Gulbenkian de Ciência"
+        orcid: "0009-0000-8923-568X"
+      - name: "Mariana G Ferreira"
+        github_user: mariana-gferreira
+        affiliation: "Instituto Gulbenkian de Ciência"
+        orcid: "0009-0002-2886-4612"
+      - name: "Estibaliz Gómez de Mariscal"
+        github_user: esgomezm
+        affiliation: "Instituto Gulbenkian de Ciência"
+        orcid: "0000-0003-2082-3277"
+    cite:
+      - text: "DL4MicEverywhere: Deep learning for microscopy made flexible, shareable, and reproducible. bioRxiv (2023)."
+        doi: 10.1101/2023.11.19.567606
+    documentation: https://github.com/HenriquesLab/DL4MicEverywhere/blob/main/README.md
+    covers: ["https://raw.githubusercontent.com/HenriquesLab/DL4MicEverywhere-bioimage-io/main/logo/dl4miceverywhere-logo.png"]
+    icon: https://raw.githubusercontent.com/HenriquesLab/DL4MicEverywhere-bioimage-io/main/logo/dl4miceverywhere-logo-small.png
