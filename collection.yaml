@@ -3,7 +3,7 @@ type: collection
 name: DL4MicEverywhere
 tags: [dl4miceverywhere, bioimage.io, docker, container, containerisation, zerocostdl4mic]
 description: "Resources of DL4MicEverywhere for BioImgage.IO."
-
+documentation: https://github.com/HenriquesLab/DL4MicEverywhere/blob/main/README.md
 authors:
   - name: "Iván Hidalgo"
     github_user: IvanHCenalmor
@@ -37,7 +37,6 @@ authors:
     github_user: esgomezm
     affiliation: "Instituto Gulbenkian de Ciência"
     orcid: "0000-0003-2082-3277"
-
 maintainers:
   - name: "Iván Hidalgo"
     github_user: IvanHCenalmor
@@ -67,7 +66,7 @@ config:
   resource_types:
     - application
     - model
-  default_type: model
+  default_type: application
   url_root: https://github.com/HenriquesLab/DL4MicEverywhere-bioimage-io
 
 collection:
@@ -77,6 +76,12 @@ collection:
     format_version: 0.2.2
     source: https://github.com/HenriquesLab/DL4MicEverywhere
     type: application
+    cite:
+      - text: "DL4MicEverywhere: Deep learning for microscopy made flexible, shareable, and reproducible. bioRxiv (2023)."
+        doi: 10.1101/2023.11.19.567606
+    documentation: https://github.com/HenriquesLab/DL4MicEverywhere/blob/main/README.md
+    covers: ["https://raw.githubusercontent.com/HenriquesLab/DL4MicEverywhere-bioimage-io/main/logo/dl4miceverywhere-logo.png"]
+    icon: https://raw.githubusercontent.com/HenriquesLab/DL4MicEverywhere-bioimage-io/main/logo/dl4miceverywhere-logo-small.png
     authors:
       - name: "Iván Hidalgo"
         github_user: IvanHCenalmor
@@ -110,7 +115,6 @@ collection:
         github_user: esgomezm
         affiliation: "Instituto Gulbenkian de Ciência"
         orcid: "0000-0003-2082-3277"
-
     maintainers:
       - name: "Iván Hidalgo"
         github_user: IvanHCenalmor
@@ -124,9 +128,4 @@ collection:
         github_user: esgomezm
         affiliation: "Instituto Gulbenkian de Ciência"
         orcid: "0000-0003-2082-3277"
-    cite:
-      - text: "DL4MicEverywhere: Deep learning for microscopy made flexible, shareable, and reproducible. bioRxiv (2023)."
-        doi: 10.1101/2023.11.19.567606
-    documentation: https://github.com/HenriquesLab/DL4MicEverywhere/blob/main/README.md
-    covers: ["https://raw.githubusercontent.com/HenriquesLab/DL4MicEverywhere-bioimage-io/main/logo/dl4miceverywhere-logo.png"]
-    icon: https://raw.githubusercontent.com/HenriquesLab/DL4MicEverywhere-bioimage-io/main/logo/dl4miceverywhere-logo-small.png
+
