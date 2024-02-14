@@ -116,7 +116,7 @@ collection:
     version: 1.0.0
   - id: Notebook_bioimageio_pytorch
     authors:
-    - "Estibaliz G\xF3mez-de-Mariscal"
+    - "Estibaliz Gómez-de-Mariscal"
     - Constantin Pape
     - Mariana Ferreira
     - BioImage Model Zoo team
