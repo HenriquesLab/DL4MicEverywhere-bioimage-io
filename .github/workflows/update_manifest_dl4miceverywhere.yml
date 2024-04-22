@@ -1,0 +1,31 @@
+name: Update the manifest with DL4MiceEverywhere information
+on:
+  # At 05:30 AM of every day
+  schedule:
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone DL4MicEverywhere-bioimage-io repository
+        uses: actions/checkout@v4
+        with:
+            path: DL4MicEverywhere-bioimage-io 
+      - name: Clone DL4MicEverywhere repository
+        uses: actions/checkout@v4
+        with:
+            repository: HenriquesLab/DL4MicEverywhere
+            path: DL4MicEverywhere
+      - name: Install requirements
+        working-directory: ./DL4MicEverywhere-bioimage-io
+        run: pip install -r .tools/requirements.txt
+      - name: Update the DL4MicEverywhere information on the manifest
+        working-directory: ./DL4MicEverywhere-bioimage-io
+        run: python3 .tools/update_manifest_dl4miceverywhere.py
+      - name: Commit the changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+            repository: ./DL4MicEverywhere-bioimage-io
+            commit_message: GitHub Action - Update manifest with DL4MiceEverywhere information
