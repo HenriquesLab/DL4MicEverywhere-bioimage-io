@@ -51,7 +51,7 @@ maintainers:
     affiliation: "Instituto Gulbenkian de Ciência"
     orcid: "0000-0003-2082-3277"
 
-config: 
+config:
   id: dl4miceverywhere
   name: DL4MicEverywhere
   tags:
@@ -72,19 +72,19 @@ config:
 collection:
   - id: Notebook_bioimageio_tensorflow
     authors:
-    - "Estibaliz Gómez-de-Mariscal"
-    - Constantin Pape
-    - Iván Hidalgo-Cenalmor
-    - BioImage Model Zoo team
+      - "Estibaliz Gómez-de-Mariscal"
+      - Constantin Pape
+      - Iván Hidalgo-Cenalmor
+      - BioImage Model Zoo team
     badges:
-    - icon: https://colab.research.google.com/assets/colab-badge.svg
-      label: Open in Colab
-      url: https://colab.research.google.com/github/HenriquesLab/DL4MicEverywhere/blob/main/notebooks/Bespoke_notebooks/bioimageio-tensorflow/load_bioimageio_tensorflow.ipynb
+      - icon: https://colab.research.google.com/assets/colab-badge.svg
+        label: Open in Colab
+        url: https://colab.research.google.com/github/HenriquesLab/DL4MicEverywhere/blob/main/notebooks/Bespoke_notebooks/bioimageio-tensorflow/load_bioimageio_tensorflow.ipynb
     cite:
-    - doi: https://doi.org/10.1101/2022.06.07.495102
-      text: "Wei Ouyang, Fynn Beuttenmueller, Estibaliz G\xF3mez-de-Mariscal, Constantin Pape, et al., BioImage Model Zoo: A Community-Driven Resource for Accessible Deep Learning in BioImage Analysis, bioRxiv 2022"
-    - doi: https://doi.org/10.1101/2023.11.19.567606
-      text: "Iv\xE1n Hidalgo-Cenalmor, Joanna W Pylv\xE4n\xE4inen, Mariana G Ferreira, et al., DL4MicEverywhere: Deep learning for microscopy made flexible, shareable, and reproducible, bioRxiv 2023"
+      - doi: https://doi.org/10.1101/2022.06.07.495102
+        text: "Wei Ouyang, Fynn Beuttenmueller, Estibaliz Gómez-de-Mariscal, Constantin Pape, et al., BioImage Model Zoo: A Community-Driven Resource for Accessible Deep Learning in BioImage Analysis, bioRxiv 2022"
+      - doi: https://doi.org/10.1101/2023.11.19.567606
+        text: "Iván Hidalgo-Cenalmor, Joanna W Pylvänäinen, Mariana G Ferreira, et al., DL4MicEverywhere: Deep learning for microscopy made flexible, shareable, and reproducible, bioRxiv 2023"
     config:
       dl4miceverywhere:
         cuda_version: 11.2.2
@@ -103,41 +103,41 @@ collection:
     format_version: 0.2.3
     git_repo: https://github.com/bioimage-io/core-bioimage-io-python/tree/main
     links:
-    - Notebook Preview
+      - Notebook Preview
     name: General BioImageIO notebook - TensorFlow
     tags:
-    - colab
-    - notebook
-    - general-notebook
-    - tensorflow
-    - ZeroCostDL4Mic
-    - dl4miceverywhere
+      - colab
+      - notebook
+      - general-notebook
+      - tensorflow
+      - ZeroCostDL4Mic
+      - dl4miceverywhere
     type: application
     version: 1.0.0
   - id: Notebook_bioimageio_pytorch
     authors:
-    - "Estibaliz Gómez-de-Mariscal"
-    - Constantin Pape
-    - Mariana Ferreira
-    - BioImage Model Zoo team
+      - "Estibaliz Gómez-de-Mariscal"
+      - Constantin Pape
+      - Mariana Ferreira
+      - BioImage Model Zoo team
     badges:
-    - icon: https://colab.research.google.com/assets/colab-badge.svg
-      label: Open in Colab
-      url: https://colab.research.google.com/github/HenriquesLab/DL4MicEverywhere/blob/main/notebooks/Bespoke_notebooks/bioimageio-pytorch/load_bioimageio_pytorch.ipynb
+      - icon: https://colab.research.google.com/assets/colab-badge.svg
+        label: Open in Colab
+        url: https://colab.research.google.com/github/HenriquesLab/DL4MicEverywhere/blob/main/notebooks/Bespoke_notebooks/bioimageio-pytorch/load_bioimageio_pytorch.ipynb
     cite:
-    - doi: https://doi.org/10.1101/2022.06.07.495102
-      text: "Wei Ouyang, Fynn Beuttenmueller, Estibaliz G\xF3mez-de-Mariscal, Constantin Pape, et al., BioImage Model Zoo: A Community-Driven Resource for Accessible Deep Learning in BioImage Analysis, bioRxiv 2022"
-    - doi: https://doi.org/10.1101/2023.11.19.567606
-      text: "Iv\xE1n Hidalgo-Cenalmor, Joanna W Pylv\xE4n\xE4inen, Mariana G Ferreira, et al., DL4MicEverywhere: Deep learning for microscopy made flexible, shareable, and reproducible, bioRxiv 2023"
+      - doi: https://doi.org/10.1101/2022.06.07.495102
+        text: "Wei Ouyang, Fynn Beuttenmueller, Estibaliz Gómez-de-Mariscal, Constantin Pape, et al., BioImage Model Zoo: A Community-Driven Resource for Accessible Deep Learning in BioImage Analysis, bioRxiv 2022"
+      - doi: https://doi.org/10.1101/2023.11.19.567606
+        text: "Iván Hidalgo-Cenalmor, Joanna W Pylvänäinen, Mariana G Ferreira, et al., DL4MicEverywhere: Deep learning for microscopy made flexible, shareable, and reproducible, bioRxiv 2023"
     config:
       dl4miceverywhere:
         cuda_version: 11.2.2
         cudnn_version: 8.1.1.33
         description: Notebook to load models from the BioImage Model Zoo in PyTorch
         dl4miceverywhere_version: 2.0.0
-        docker_hub_image: load_bioimageio_pytorch-b1.0.0-d2.0.0
+        docker_hub_image: load_bioimageio_pytorch-b1.1.0-d2.0.0
         notebook_url: https://raw.githubusercontent.com/HenriquesLab/DL4MicEverywhere/main/notebooks/Bespoke_notebooks/bioimageio-pytorch/load_bioimageio_pytorch.ipynb
-        notebook_version: 1.0.0
+        notebook_version: 1.1.0
         python_version: '3.9'
         requirements_url: https://raw.githubusercontent.com/HenriquesLab/DL4MicEverywhere/main/notebooks/Bespoke_notebooks/bioimageio-pytorch/requirements.txt
         sections_to_remove: 1.0.
@@ -147,15 +147,15 @@ collection:
     format_version: 0.2.3
     git_repo: https://github.com/bioimage-io/core-bioimage-io-python/tree/main
     links:
-    - Notebook Preview
+      - Notebook Preview
     name: General BioImageIO notebook - PyTorch
     tags:
-    - colab
-    - notebook
-    - general-notebook
-    - pytorch
-    - ZeroCostDL4Mic
-    - dl4miceverywhere
+      - colab
+      - notebook
+      - general-notebook
+      - pytorch
+      - ZeroCostDL4Mic
+      - dl4miceverywhere
     type: application
     version: 1.1.0
   - id: DL4MicEverywhere
