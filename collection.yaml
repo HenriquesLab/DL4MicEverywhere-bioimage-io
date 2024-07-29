@@ -102,6 +102,7 @@ collection:
     download_url: https://colab.research.google.com/github/HenriquesLab/DL4MicEverywhere/blob/main/notebooks/Bespoke_notebooks/bioimageio-tensorflow/load_bioimageio_tensorflow.ipynb
     format_version: 0.2.3
     git_repo: https://github.com/bioimage-io/core-bioimage-io-python/tree/main
+    license: CC-BY-4.0
     links:
       - Notebook Preview
     name: General BioImageIO notebook - TensorFlow
@@ -146,6 +147,7 @@ collection:
     download_url: https://colab.research.google.com/github/HenriquesLab/DL4MicEverywhere/blob/main/notebooks/Bespoke_notebooks/bioimageio-pytorch/load_bioimageio_pytorch.ipynb
     format_version: 0.2.3
     git_repo: https://github.com/bioimage-io/core-bioimage-io-python/tree/main
+    license: CC-BY-4.0
     links:
       - Notebook Preview
     name: General BioImageIO notebook - PyTorch
@@ -170,6 +172,7 @@ collection:
     documentation: https://github.com/HenriquesLab/DL4MicEverywhere/blob/main/README.md
     covers: ["https://raw.githubusercontent.com/HenriquesLab/DL4MicEverywhere-bioimage-io/main/logo/dl4miceverywhere-logo.png"]
     icon: https://raw.githubusercontent.com/HenriquesLab/DL4MicEverywhere-bioimage-io/main/logo/dl4miceverywhere-logo-small.png
+    license: CC-BY-4.0
     authors:
       - name: "Iván Hidalgo"
         github_user: IvanHCenalmor
