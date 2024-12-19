@@ -14,7 +14,7 @@ def export_bmz_notebook(notebook_id, output_path):
     zerocostdl4mic_path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..'))
 
     # Read the information from the manifest
-    with open(os.path.join(zerocostdl4mic_path, "manifest.bioimage.io.yaml"), 'r', encoding='utf8') as f:
+    with open(os.path.join(zerocostdl4mic_path, "collection.yaml"), 'r', encoding='utf8') as f:
         yaml = YAML()
         yaml.preserve_quotes = True
         manifest_data = yaml.load(f)
@@ -93,7 +93,7 @@ def main():
  
     parser = argparse.ArgumentParser(description="Export the chosen notebook into a ZIP file that follows the BioImage.IO format.",
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument("-n", "--name", help="Name of the notebook you want to export. You need to provide the 'id' from manifest.bioimage.io.yaml.")
+    parser.add_argument("-n", "--name", help="Name of the notebook you want to export. You need to provide the 'id' from collection.yaml.")
     parser.add_argument("-o", "--output", help="Path to the folder to save the ZIP file.")
     args = vars(parser.parse_args())
 
